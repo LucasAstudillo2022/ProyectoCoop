@@ -1,0 +1,63 @@
+﻿@model ProyectoServiCoop.Models1.Controle
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Controle</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="marca" class="control-label"></label>
+                <input asp-for="marca" class="form-control" />
+                <span asp-validation-for="marca" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tipo" class="control-label"></label>
+                <input asp-for="tipo" class="form-control" />
+                <span asp-validation-for="tipo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fecharealizada" class="control-label"></label>
+                <input asp-for="fecharealizada" class="form-control" />
+                <span asp-validation-for="fecharealizada" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="km" class="control-label"></label>
+                <input asp-for="km" class="form-control" />
+                <span asp-validation-for="km" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="opinion" class="control-label"></label>
+                <input asp-for="opinion" class="form-control" />
+                <span asp-validation-for="opinion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="realizado" class="control-label"></label>
+                <input asp-for="realizado" class="form-control" />
+                <span asp-validation-for="realizado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="supervisor" class="control-label"></label>
+                <input asp-for="supervisor" class="form-control" />
+                <span asp-validation-for="supervisor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
