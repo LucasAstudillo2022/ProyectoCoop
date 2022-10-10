@@ -9,12 +9,16 @@ using System.Text;
 namespace ProyectoServiCoop.Models
 {
     public class appDBcontext : DbContext
-    {                                
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        public appDBcontext(DbContextOptions<appDBcontext> options): base(options)
         {
-
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=ProyectoCoop2022;Trusted_Connection=True;MultipleActiveResultSets=True");
         }
+
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+
+        //    optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=ProyectoCoop2022;Trusted_Connection=True;MultipleActiveResultSets=True");
+        //}
         public DbSet<Servi> servi { get; set; }
         public DbSet<Controle> controle { get; set; }
     }

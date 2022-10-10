@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas Astudillo\\Desktop\\Coop Proyectos\\ProyectoServiCoop\\ProyectoServiCoop\\ProyectoServiCoop.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\ProyectoServiCoop\\ProyectoServiCoop\\ProyectoServiCoop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas Astudillo\\Desktop\\Coop Proyectos\\ProyectoServiCoop\\ProyectoServiCoop\\ProyectoServiCoop.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\ProyectoServiCoop\\ProyectoServiCoop\\ProyectoServiCoop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas Astudillo\\Desktop\\Coop Proyectos\\ProyectoServiCoop\\ProyectoServiCoop\\ProyectoServiCoop.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\ProyectoServiCoop\\ProyectoServiCoop\\ProyectoServiCoop.csproj",
         "projectName": "ProyectoServiCoop",
-        "projectPath": "C:\\Users\\Lucas Astudillo\\Desktop\\Coop Proyectos\\ProyectoServiCoop\\ProyectoServiCoop\\ProyectoServiCoop.csproj",
-        "packagesPath": "C:\\Users\\Lucas Astudillo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas Astudillo\\Desktop\\Coop Proyectos\\ProyectoServiCoop\\ProyectoServiCoop\\obj\\",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\ProyectoServiCoop\\ProyectoServiCoop\\ProyectoServiCoop.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\ProyectoServiCoop\\ProyectoServiCoop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lucas Astudillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,12 +70,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.29, 3.1.29]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
